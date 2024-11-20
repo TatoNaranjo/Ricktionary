@@ -1,0 +1,127 @@
+.mainLogo{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    transition: 2s ease;
+}
+.mainLogo:hover{
+    
+    h1{
+        color:#b2daed;
+        text-shadow:  0 3px #000000, 0 0 5px #000000;
+    }
+    b{color: #d5c8b8;}
+}
+
+.mainNavbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 24px;
+    font-family: 'lato',sans-serif;
+    background-color: #97ce4c;
+    img{
+        width: 212px;
+        cursor:pointer;
+    }
+    .searchImg{
+        width:32px;
+        height:32px;
+    }
+    @media (max-width: 760px) {
+    padding-top: 24px;
+    gap: 24px;
+    flex-direction: column;
+}
+}
+
+.rightSide{
+    display: flex;
+    gap: 24px;
+}
+@media (max-width:760px) {
+    .rightSide{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.searchBar{
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto;
+form{
+    background-color: #fff;
+    display: flex;
+    border-radius: 12px;
+    border: 1px solid;
+    padding: 12px 8px;
+    outline: none;
+    box-shadow: 4px 4px 0px 1px rgba(68, 40, 29, 1);
+    transition: box-shadow 0.5s;
+}
+.search-group{
+    gap:12px;
+    flex-direction: row;
+}
+
+.searchImg{
+    transition: 1s;
+}
+.searchImg:hover{
+color: 	#d5c8b8;
+}
+
+button{
+    background: none;
+    border:none;
+    
+}
+
+input{
+    border: none;
+    background: none;
+    outline:none;
+    width: 100%;
+    line-height: 20px;
+    font-size:20px;
+    font-weight: 400;
+    box-shadow: none;
+}
+}
+
+
+.nav-button{
+justify-content: right;
+background-color: #02afc5;
+}
+.nav-button:hover{
+background-color: #a9f3fd;
+}
+
+.close-button:hover{
+    background-color: #e4a788;
+}
+.button-divider{
+    display: flex;
+    gap: 12px;
+    justify-content: right;
+    align-items: center;
+    
+}
+.wave-container{
+    padding: 0;
+    margin: 0;
+}
+
+.wave{
+    position: relative;
+    top: 20%;
+}
+.shape-fill{
+    fill: #97ce4c;
+}

@@ -1,0 +1,13 @@
+.galleryContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap:24px;
+    justify-content: center;
+    align-items: center;
+    margin: auto 4%;
+}
+
+.bannerText{
+    text-align: center;
+    font-size: 48px;
+}
