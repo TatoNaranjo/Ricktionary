@@ -33,10 +33,13 @@ Feel free to clone, explore, and contribute!
 ### ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 - **Introduction to Styled-Components**: Understanding the basics of styled-components and how they enable writing CSS-in-JS for better modularity and scoped styling.
-- **Dynamic Styling:** Learning how to apply dynamic styles based on component props and state, making styles more adaptable and interactive.
+- **Dynamic Styling:** Applying dynamic styles based on component props and state, making styles more adaptable and interactive.
 - **Media Queries:** Writing media queries within styled-components to create responsive designs that adapt to different screen sizes.
 - **Extending Styles:** Understanding how to extend styles from other styled components for code reuse and consistency.
 - **Component Structure:** Best practices for structuring components and their styles, ensuring maintainable and scalable code.
+
+<img width="1654" alt="image" src="https://github.com/user-attachments/assets/29bfa40b-060f-49d4-9b34-23d16b8183b0">
+
 
 
 ## Installation and Usage
